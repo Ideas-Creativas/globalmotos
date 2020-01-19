@@ -1,0 +1,30 @@
+.appSlide{
+  width: 100%;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.slideContent{
+  flex-grow: 1;
+  width: 100%;
+  overflow: hidden;
+}
+.slideContent ul{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+  width: 200vw;
+  margin-left: 0vw;
+}
+.slideContent ul li{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  float: left;
+  flex-grow: 1;
+}
+.slideContent ul li img{
+  width: 100%;
+}

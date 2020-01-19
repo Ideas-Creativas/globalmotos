@@ -1,0 +1,20 @@
+.marcasContent{
+  flex-grow: 1;
+  width: 100%;
+}
+.marcasContent ul{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.marcasContent ul li{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  flex-grow: 1;
+}
+.marcasContent ul li img{
+  height: 71px;
+}

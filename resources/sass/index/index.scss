@@ -1,0 +1,36 @@
+
+.misionVisionContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: stretch;
+  width: 100%;
+}
+.misionVisionContainer .about-side{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: stretch;
+}
+.misionVisionContainer .about-side div{
+  color: #4B4A4B;
+  padding: 7px 15px;
+  flex-basis: 587px;
+}
+.misionVisionContainer .about-side div h2{
+  color: #B22515;
+}
+.misionVisionContainer .vision-side{
+  flex-grow: 1;
+  background-color: #4B4A4B;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: stretch;
+}
+.misionVisionContainer .vision-side div{
+  color: #FFFFFF;
+  padding: 7px 15px;
+  flex-basis: 410px;
+}

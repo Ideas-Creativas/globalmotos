@@ -1,0 +1,125 @@
+header{
+  width: 100%;
+  height: 153px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1280px;
+}
+.logo{
+  flex-grow: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 459px;
+  padding-left: 40px;
+}
+.logo img{
+  width: 289px;
+  height: 91.8px;
+}
+nav{
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: center;
+  width: 495px;
+}
+
+nav ul{
+  padding: 0px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+nav ul li{
+  list-style: none;
+  float: left;
+  padding: 5px 10px;
+}
+
+nav a{
+  color: #505050;
+  text-decoration: none;
+  font-size: 1.5em;
+  display:block;
+}
+nav a:hover{
+  color: #000000;
+  text-decoration: none;
+}
+footer{
+  background-color: #B22515;
+  color: #FFFFFF;
+  height: 310px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+}
+footer a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer a:hover{
+  color: #a7a5a4;
+  text-decoration: none;
+}
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+}
+footer ul{
+  padding: 0px;
+}
+footer ul li{
+  list-style: none;
+}
+footer .footer-container .logo-inf{
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+footer .footer-container .nav-inf{
+  flex-grow: 1;
+}
+footer .footer-container .domicilio-inf{
+  flex-grow: 1;
+}
+footer .footer-container p{
+  padding: 0px;
+  margin-top: 0px;
+}
+
+footer .footer-container .redes-inf{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 205px;
+}
+
+footer .footer-container .redes-inf ul li{
+  float: left;
+  padding: 5px;
+  font-family: 'dinAlternate';
+  color: #4B4A4B;
+  text-decoration: none;
+}
+footer .footer-container .redes-inf ul li{
+  color: #211915;
+  text-decoration: none;
+}
